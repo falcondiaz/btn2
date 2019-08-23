@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/escenario_pinocho"
+    android:fitsSystemWindows="true"
+    tools:context=".pantalla2">
+
+    <ImageView
+        android:id="@+id/tv"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/mpp"
+        />
+
+    <ImageView
+        android:id="@+id/tv2"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/arco_acp"
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button"
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_back"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        />
+
+</RelativeLayout>
