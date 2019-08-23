@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private Button btn;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,pantalla2.class);
+                Toast.makeText(getApplicationContext(),"hola",Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }
         });
