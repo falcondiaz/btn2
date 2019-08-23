@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,pantalla2.class);
-                Toast.makeText(getApplicationContext(),"hola",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"hola que tal",Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }
         });
